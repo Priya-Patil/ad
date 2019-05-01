@@ -14,8 +14,12 @@
     <string name="rewarded_video">ca-app-pub-3940256099942544/5224354917</string>-->
 
     <!-- AdMob ad unit IDs for Real account-->
-    <string name="admob_app_id">ca-app-pub-6033450924958808~9411004981</string>
+   <!-- <string name="admob_app_id">ca-app-pub-6033450924958808~9411004981</string>
     <string name="banner_home_footer">ca-app-pub-6033450924958808/7340209569</string>
+    -->
+    <string name="admob_app_id">ca-app-pub-1011785208715114~1597756895</string>
+    <string name="banner_home_footer">ca-app-pub-1011785208715114/4363521031</string>
+
     <string name="interstitial_full_screen">ca-app-pub-6033450924958808/9332071796</string>
     <string name="rewarded_video">ca-app-pub-6033450924958808/3780362210</string>
 </resources>
