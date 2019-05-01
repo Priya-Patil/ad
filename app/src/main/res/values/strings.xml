@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Googleadds</string>
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Shareque Siddiqui</string>
+    <string name="btn_fullscreen_ad">Show Interstitial Ad</string>
+    <string name="btn_rewarded_video">Show Rewarded Video Ad</string>
+
+
+    <!-- TODO - add your ad unit Ids -->
+    <!-- AdMob ad unit IDs for testing-->
+    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewarded_video">ca-app-pub-3940256099942544/5224354917</string>-->
+
+    <!-- AdMob ad unit IDs for Real account-->
+    <string name="admob_app_id">ca-app-pub-6033450924958808~9411004981</string>
+    <string name="banner_home_footer">ca-app-pub-6033450924958808/7340209569</string>
+    <string name="interstitial_full_screen">ca-app-pub-6033450924958808/9332071796</string>
+    <string name="rewarded_video">ca-app-pub-6033450924958808/3780362210</string>
+</resources>

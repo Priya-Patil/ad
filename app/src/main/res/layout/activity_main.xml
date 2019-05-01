@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_welcome"
+        android:textAlignment="center"
+        android:textColor="#f1eeee"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cardView3">
+
+        <Button
+            android:id="@+id/btn_fullscreen_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/btn_fullscreen_ad" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cardView">
+
+        <Button
+            android:id="@+id/btn_show_rewarded_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/btn_rewarded_video" />
+
+    </android.support.v7.widget.CardView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_home_footer" />
+
+
+</RelativeLayout>
